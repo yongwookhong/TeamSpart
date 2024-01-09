@@ -3,8 +3,12 @@
     static void Main(string[] args)
     {
         Player.AddPlayer();
-
     }
+}
+
+class Item
+{
+
 }
 
 class Player
@@ -29,10 +33,10 @@ class Player
     public static void AddPlayer()
     {
         Console.WriteLine("캐릭터 이름을 입력하여 주십시오.");
-        string name = Console.ReadLine()
+        string name = Console.ReadLine();
         Console.WriteLine("직업을 입력하여 주십시오.");
-        string job = Console.ReadLine()
-        new Player(name,job)
+        string job = Console.ReadLine();
+        new Player(name, job);
     }
     public void Status()
     {
