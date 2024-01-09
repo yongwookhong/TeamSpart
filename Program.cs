@@ -2,7 +2,7 @@
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("아ㄴ녕하세요");
+        Console.WriteLine("안새새55");
     }
 }
 
